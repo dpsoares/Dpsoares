@@ -5,8 +5,6 @@ function LoadDataWithHTML(book){
 	<h1></h1>
 	<h3></h3>
 	<p></p>
-	
-
 	<br>
 	<div class="clearfix"> 
 	<a class="wikipedia pull-left"; target="blank"></a> 
