@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/alunomanha/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="/Users/alunomanha/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/Users/alunomanha/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource declaration="true" name="%1;" path="%0"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="24" name="%1" offset="263" path="%2"/>
+   <linked-el length="24" name="%1" offset="417" path="%3"/>
+   <linked-el length="20" name="%1" offset="397" path="%2"/>
+   <linked-el length="24" name="%1" offset="336" path="%3"/>
+   <linked-el length="24" name="%1" offset="447" path="%2"/>
+   <linked-el length="24" name="%1" offset="232" path="%3"/>
+   <linked-el length="24" name="%0" offset="263" path="%2"/>
+   <linked-el length="24" name="%0" offset="417" path="%3"/>
+   <linked-el length="20" name="%0" offset="397" path="%2"/>
+   <linked-el length="24" name="%0" offset="336" path="%3"/>
+   <linked-el length="24" name="%0" offset="447" path="%2"/>
+   <linked-el length="24" name="%0" offset="232" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/JSF/src/main/webapp/result.xhtml" value="%3"/>
+  <alias path="navigator" value="%1"/>
+  <alias path="/JSF/src/main/webapp/index.xhtml" value="%2"/>
+  <alias path="/JSF/src/main/java/io/altar/upacademy/Navigator.java" value="%0"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

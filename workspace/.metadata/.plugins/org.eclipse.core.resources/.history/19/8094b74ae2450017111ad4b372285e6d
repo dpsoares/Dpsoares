@@ -1,0 +1,99 @@
+package io.altar.jseproject.test;
+
+import java.util.Scanner;
+
+public class teste {
+
+	public static void mainMenu(String[] args) {
+					
+			// Display menu graphics
+			System.out.println("============================");
+			System.out.println("|       MENU SELECTION     |");
+			System.out.println("============================");
+			System.out.println("| Options:                 |");
+			System.out.println("|    1. Listar Produtos    |");
+			System.out.println("|    2. Listar Prateleiras |");
+			System.out.println("|    3. Sair               |");
+			System.out.println("============================");
+			
+			int input = getInput(1, 3);
+			switch (input) {
+			case 1:
+				productMenu();
+				break;
+			case 2:
+				shelfMenu();
+				break;
+			}
+		}
+
+		public static int getInput(int min, int max) {
+			Scanner s = new Scanner(System.in);
+			int input = 0;
+
+			while (true) {
+				if (s.hasNextInt()) {
+					input = s.nextInt();
+					if (input >= min && input <= max) {
+						return input;
+					} else {
+						System.out.println("Por favor introduza um numero entre " + min + " e " + max);
+					}
+				} else {
+					System.out.println("Por favor introduza um número");
+					s.next();
+				}
+			}
+		}
+	
+		public static void productMenu() {
+	
+			// Display menu graphics
+			System.out.println("=================================");
+			System.out.println("|          MENU SELECTION        |");
+			System.out.println("==================================");
+			System.out.println("| Options:                       |");
+			System.out.println("|    1. Criar novo Produto       |");
+			System.out.println("|    2. Editar produto existente |");
+			System.out.println("|    3. Consultar um produto     |");
+			System.out.println("|    4. Remover um Produto       |");
+			System.out.println("|    5. Voltar ao ecra anterior  |");
+			System.out.println("==================================");
+			
+			int input = getInput(1, 5);
+			switch (input) {
+			case 1:
+				shelfMenu();
+				break;
+			case 2:
+				productMenu();
+				break;
+			}
+		}
+		
+		public static void shelfMenu() {
+			
+			// Display menu graphics
+			System.out.println("=================================");
+			System.out.println("|          MENU SELECTION        |");
+			System.out.println("==================================");
+			System.out.println("| Options:                       |");
+			System.out.println("|    1. Criar novo Produto       |");
+			System.out.println("|    2. Editar produto existente |");
+			System.out.println("|    3. Consultar um produto     |");
+			System.out.println("|    4. Remover um Produto       |");
+			System.out.println("|    5. Voltar ao ecra anterior  |");
+			System.out.println("==================================");
+			
+			int input = getInput(1, 5);
+			switch (input) {
+			case 1:
+				shelfMenu();
+				break;
+			case 2:
+				productMenu();
+				break;
+			}
+		}
+}
+

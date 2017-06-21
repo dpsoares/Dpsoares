@@ -1,0 +1,5 @@
+package io.altar.jeeproject.Model;
+
+public class Shelf {
+
+}

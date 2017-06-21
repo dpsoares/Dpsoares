@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.altar.jseproject.test.teste"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.textinderface.TextInterface"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.Product"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.test.test"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.Entity"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.parser.Entity"/>
+</qualifiedTypeNameHistroy>

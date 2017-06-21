@@ -1,0 +1,295 @@
+Aula teorica
+
+public static void main(String[] args) {
+	 int result = (a > b ? a +b : a-b)
+
+//   se a > b, a +b
+//   else, a-b. 
+
+System.out.println("A IS EQUAL TO " + result)
+}
+
+string forma correta de comparar é 
+
+string input;
+.
+.
+.
+... input.equals
+
+
+strBuilder.append("world").append("bye")
+
+
+
+@Override 
+Public String toString(){
+	return “Ïd” + id + “ | PVP “ +
+	pop;
+}
+
+sysout(Product)
+
+Dontpad fsicode
+
+
+UTILS-------------------------------------------------------------------------------------------------------------------------------------------------
+
+public class Utils {
+
+	//		Validação de um intervalo
+	public static int numValidate(int min, int max) {
+		
+		int option = 0;
+		
+		while (true) {
+			if (Test.scanner.hasNextInt()) {
+				option = Test.scanner.nextInt();
+				if (option >= min && option <= max) {
+					return option;
+				} else {
+					System.out.println("Please input a number between " + min + " and " + max);
+
+				}
+			} else {
+				System.out.println("Error, NaN. Input a number.");
+				Test.scanner.next();
+			}
+		}
+	}
+
+	
+	// 			Validação do IVA
+	public static int ivaVal(int option){
+		
+		while (option != 0 && option != 6 && option !=13 && option !=23){
+			
+			System.out.println("Input correct IVA value (0, 6, 13 or 23): ");
+			if (Test.scanner.hasNextInt()) {
+				
+			option = Test.scanner.nextInt();
+			}
+		 else {
+			System.out.println("Error, NaN. Input a number.");
+			Test.scanner.next();
+		 	}
+		}
+		return option;
+	}
+	
+	// 			Validação
+	public static double discountVal(double min, int max){
+		
+		int option = 0;
+				
+		while (true) {
+			if (Test.scanner.hasNextInt()) {
+				option = Test.scanner.nextInt();
+				if (option >= min && option <= max) {
+					return option;
+				} else {
+					System.out.println("Please input a number between " + min + " and the product's total price (" + max +")");
+				}
+			} else {
+				System.out.println("Error, NaN. Input a number.");
+				Test.scanner.next();
+			}
+		}
+		
+	}
+	
+	
+}
+
+
+
+TEXT INTERFACE ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+public class TextInterface {
+	
+	
+	public static ArrayList<Product> pList = new ArrayList<Product>();
+	
+	public static void mainMenu(){
+		
+    	System.out.println("1.List Products");
+    	System.out.println("2.List Shelves");
+    	System.out.println("3.Exit");
+    	
+    	int option = Utils.numValidate(1, 3);
+    	
+    	switch (option){
+    	case 1:
+    		TextInterface.ProductList();
+    		break;
+    	case 2:
+    		TextInterface.ShelvesList();
+    		break;
+    	case 3:
+    		System.out.println("I'm out!");
+    	}
+	}
+	
+	public static void ProductList(){
+		
+		// List Products
+		
+		System.out.println("1. Create new products");
+		System.out.println("2. Edit existing products");
+		System.out.println("3. Product details");
+		System.out.println("4. Remove products");
+		System.out.println("5. Return to previous menu");
+		
+		int option = Utils.numValidate(1, 5);
+		int x;
+		int y;
+		double z;
+		
+    	switch (option){
+    	case 1:
+    		System.out.println("Enter the Product's price (€): ");
+    		x = Utils.numValidate(0, 100);
+    		System.out.println("Enter the Product's IVA (%): ");
+    		y = Utils.ivaVal(option);
+    		System.out.println("Enter the Product's discount (€): ");
+    		z = Utils.numValidate(0, x);
+    		double zx= z*100/x;
+    		double roundOff2 = Math.round(zx*100.0)/100.0;
+    		System.out.println("Your newly added product has " + roundOff2 + "% discount. \n");
+    		Product p = new Product(x, y, z);
+    		System.out.println(p);
+    		System.out.println("\nProduct successfully created. Returning to previous menu..\n");
+    		ProductList();
+    		break;
+    	case 2:
+    		break;
+    	case 3:
+    		break;
+    	case 4:
+    		break;
+    	case 5:
+    		TextInterface.mainMenu();
+    	}
+	}
+	
+	public static void ShelvesList(){
+		
+		System.out.println("1. Create new shelves");
+		System.out.println("2. Edit existing shelves");
+		System.out.println("3. Shelves details");
+		System.out.println("4. Remove shelves");
+		System.out.println("5. Return to previous menu");
+		
+		int option = Utils.numValidate(1, 5);
+    	switch (option){
+    	case 1:
+    		break;
+    	case 2:
+    		break;
+    	case 3:
+    		break;
+    	case 4:
+    		break;
+    	case 5:
+    		TextInterface.mainMenu();
+    	}
+	}
+}
+
+
+Package com.
+
+
+
+/////// André
+
+Link “dashmat”
+
+(K,v) 
+
+Id, Product or Shelf
+
+////////
+
+Public class Main {
+
+Public static void main(String[] args) {
+	//byte 
+	//short
+	//int
+	//long
+	//float
+	//double
+	//char 
+	//boolean
+	
+	String mystring = “this is a string”;
+	Sysout 
+
+	}
+}
+
+Public class Main {
+
+Public static void main(String[] args) {
+	//byte 
+	//short
+	//int
+	//long
+	//float
+	//double
+	//char 
+	//boolean
+	
+	String mystring = “this is a string”;
+	Sysout 
+
+	}
+Public class Main {
+
+Public static void main(String[] args) {
+	//byte 
+	//short
+	//int
+	//long
+	//float
+	//double
+	//char 
+	//boolean
+	
+	String mystring = “this is a string”;
+	Sysout 
+
+	}
+java operator precedence table
+
+———————________________________________________
+
+
+
+
+https://docs.oracle.com/cd/E13226_01/workshop/docs81/pdf/files/workshop/JavaKeywordReference.pdf
+_______________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

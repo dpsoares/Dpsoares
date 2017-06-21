@@ -1,0 +1,5 @@
+package io.altar.jeeproject.Repository;
+
+public class ShelfRepository {
+
+}

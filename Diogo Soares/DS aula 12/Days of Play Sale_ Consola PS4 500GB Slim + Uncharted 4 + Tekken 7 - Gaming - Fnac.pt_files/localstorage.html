@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)http://www.fnac.pt/static/sf/xbLi6c-K8H7a_GqTSwn4OStqdUc0/nav/core/static/localstorage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        (function() {
+            'use strict';
+
+            var MESSAGE_NAMESPACE = 'cross-domain-local-message';
+
+            var defaultData = {
+                namespace: MESSAGE_NAMESPACE
+            };
+
+            function extend(object, defaultObject) {
+                var result = defaultObject || {};
+                var key;
+                for (key in object) {
+                    if (object.hasOwnProperty(key)) {
+                        result[key] = object[key];
+                    }
+                }
+                return result;
+            }
+
+            function postData(id, data) {
+                var mergedData = extend(data, defaultData);
+                mergedData.id = id;
+                parent.postMessage(JSON.stringify(mergedData), '*');
+            }
+
+            function getData(id, key) {
+                var value = JSON.parse(localStorage.getItem(key));
+                var data = {
+                    key: key,
+                    value: value
+                };
+                postData(id, data);
+            }
+
+            function setData(id, key, value) {
+                localStorage.setItem(key, JSON.stringify(value));
+
+                //var checkGet = JSON.parse(localStorage.getItem(key));
+                //console.log(checkGet);
+
+
+                var data = {
+                    success: true
+                };
+                postData(id, data);
+            }
+
+            function removeData(id, key) {
+                localStorage.removeItem(key);
+                postData(id, {});
+            }
+
+            function getKey(id, index) {
+                var key = localStorage.key(index);
+                postData(id, { key: key });
+            }
+
+            function getSize(id) {
+                var size = JSON.stringify(localStorage).length;
+                postData(id, { size: size });
+            }
+
+            function clear(id) {
+                localStorage.clear();
+                postData(id, {});
+            }
+
+            function receiveMessage(event) {
+                var data;
+                try {
+                    data = JSON.parse(event.data);
+                } catch (err) {
+                    //not our message, can ignore
+                }
+                if (data && data.namespace === MESSAGE_NAMESPACE) {
+                    if (data.action === 'set') {
+                        setData(data.id, data.key, data.value);
+                    } else if (data.action === 'get') {
+                        getData(data.id, data.key);
+                    } else if (data.action === 'remove') {
+                        removeData(data.id, data.key);
+                    } else if (data.action === 'key') {
+                        getKey(data.id, data.key);
+                    } else if (data.action === 'size') {
+                        getSize(data.id);
+                    } else if (data.action === 'clear') {
+                        clear(data.id);
+                    }
+                }
+            }
+
+            if (window.addEventListener) {
+                window.addEventListener('message', receiveMessage, false);
+            } else {
+                window.attachEvent('onmessage', receiveMessage);
+            }
+
+            function sendOnLoad() {
+                var data = {
+                    namespace: MESSAGE_NAMESPACE,
+                    id: 'iframe-ready'
+                };
+                parent.postMessage(JSON.stringify(data), '*');
+            }
+            //on creation
+            sendOnLoad();
+
+        })();
+
+    </script>
+
+
+</body></html>

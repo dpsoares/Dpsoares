@@ -1,0 +1,49 @@
+package io.altar.jseproject.test;
+
+import java.util.Scanner;
+
+public class teste {
+
+
+	public static void main(String[] args) {
+					
+			// Display menu graphics
+			System.out.println("============================");
+			System.out.println("|       MENU SELECTION     |");
+			System.out.println("============================");
+			System.out.println("| Options:                 |");
+			System.out.println("|        1. Option 1       |");
+			System.out.println("|        2. Option 2       |");
+			System.out.println("|        3. Exit           |");
+			System.out.println("============================");
+			
+			int input = getInput(1, 3);
+			switch (input) {
+			case 1:
+				break;
+			case 2:
+				break;
+			}
+		}
+
+		public static int getInput(int min, int max) {
+			Scanner s = new Scanner(System.in);
+			int input = 0;
+
+			while (true) {
+				if (s.hasNextInt()) {
+					input = s.nextInt();
+					if (input >= min && input <= max) {
+						return input;
+					} else {
+						System.out.println("Por favor introduza um numero entre " + min + " e " + max);
+					}
+				} else {
+					System.out.println("Por favor introduza um número");
+					s.next();
+				}
+			}
+		}
+
+	}
+

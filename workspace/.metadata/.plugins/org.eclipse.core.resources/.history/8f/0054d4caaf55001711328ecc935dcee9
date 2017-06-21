@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html">
+	<h:head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+	</h:head>
+	<h:body>
+		<h3>Hello #{navigator.name}!</h3>
+		<h:form>
+			<h:inputText value="Text 1" disabled="#{navigator.disabled}" /><br />
+			<h:inputTextarea value="Big text 2" disabled="#{navigator.disabled}" /><br />
+			<h:commandLink value = "« Back" action = "index" />
+		</h:form>
+	</h:body>
+</html>

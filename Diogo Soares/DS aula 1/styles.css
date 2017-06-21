@@ -1,0 +1,33 @@
+.Books {
+	width: 200px;
+	height: 400px;
+	
+	display: inline-block;
+	justify-content: space-around;
+	border-color: 1px solid green;
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	
+}
+
+body { 
+	background-color: grey;
+}
+h1	{
+	color: blue;
+	font-size: 120%;
+} 
+p {
+	color: black;
+	justify-content: space-around;
+}
+button {
+	box-sizing: 20px;
+}
+
+
+
+
+
