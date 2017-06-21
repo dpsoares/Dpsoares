@@ -1863,3 +1863,55 @@ Binding(COMMAND+SHIFT+F10,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-21 12:26:42.161
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-21 12:26:42.237
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.jboss.tools.cdi.core 4 0 2017-06-21 12:32:58.517
+!MESSAGE Resource '/JSF/src/main/java/teste' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/JSF/src/main/java/teste' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:239)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:226)
+	at org.jboss.tools.cdi.internal.core.validation.CDICoreValidator.collectAllRelatedResourcesFromPackageInfo(CDICoreValidator.java:1691)
+	at org.jboss.tools.cdi.internal.core.validation.CDICoreValidator.validate(CDICoreValidator.java:386)
+	at org.jboss.tools.common.validation.ValidatorManager.validate(ValidatorManager.java:140)
+	at org.jboss.tools.common.validation.ValidatorManager.validateInJob(ValidatorManager.java:81)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-06-21 12:32:58.586
+!MESSAGE Resource '/JSF/src/main/java/teste' does not exist.
+
+!ENTRY org.jboss.tools.cdi.core 4 0 2017-06-21 12:33:39.300
+!MESSAGE Resource '/JSF/src/main/java/test' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/JSF/src/main/java/test' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:239)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:226)
+	at org.jboss.tools.cdi.internal.core.validation.CDICoreValidator.collectAllRelatedResourcesFromPackageInfo(CDICoreValidator.java:1691)
+	at org.jboss.tools.cdi.internal.core.validation.CDICoreValidator.validate(CDICoreValidator.java:386)
+	at org.jboss.tools.common.validation.ValidatorManager.validate(ValidatorManager.java:140)
+	at org.jboss.tools.common.validation.ValidatorManager.validateInJob(ValidatorManager.java:81)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-06-21 12:33:39.300
+!MESSAGE Resource '/JSF/src/main/java/test' does not exist.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-21 12:51:48.272
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-21 12:51:48.297
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-21 12:51:48.398
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-21 12:51:48.399
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
