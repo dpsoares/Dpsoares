@@ -4,7 +4,22 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 	</h:head>
 	<h:body>
-		<h3>Hello #{navigator.name}!</h3>
+		<h:form>
+			<h:panelGrid>
+				<h:outputLabel value="Produto" />
+				<h:inputText />
+				<h:commandButton action="#{javax.enterprise.context.conversation}" value="teste" />
+			</h:panelGrid>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- 	<h3>Hello #{navigator.name}!</h3>
 		<h4> Benfas ftw</h4>
 		<h:form>
 			<p:growl id="messages"/>
@@ -21,7 +36,7 @@
 			
 			<h:inputText value="Text 1" disabled="#{navigator.disabled}" /><br />
 			<h:inputTextarea value="Big text 2" disabled="#{navigator.disabled}" /><br />
-			<h:commandLink value = "« Back" action = "index" />
+			<h:commandLink value = "« Back" action = "index" /> -->
 		</h:form>
 	</h:body>
 </html>

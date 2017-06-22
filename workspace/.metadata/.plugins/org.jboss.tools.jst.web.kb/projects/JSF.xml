@@ -3,9 +3,346 @@
  <depends-on-projects/>
  <used-by-projects/>
  <paths>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/ehcache-1.6.2.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jasperreports-5.6.0.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/javassist-3.12.0.GA.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jfreechart-1.0.14.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/bcmail-jdk14-136.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-excelant-3.9-20121203.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/taglib-core-0.4.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/glass-x-1.0.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-security-config-3.1.2.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-scratchpad-3.9-20121203.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jsf-impl-2.2.7.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/meta-inf/html_basic.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/meta-inf/jsf_core.tld" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/meta-inf/mojarra_ext.taglib.xml" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/meta-inf/mojarra_ext.tld" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.7.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/log4j-1.2.15.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/openid4java-nodeps-0.9.6.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/hsqldb-1.8.0.10.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-ooxml-3.9-20121203.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/aopalliance-1.0.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-ooxml-schemas-3.9-20121203.jar"/>
+  <path value="/Users/alunomanha/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-6.1.jar/meta-inf/faces-config.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-6.1.jar/meta-inf/primefaces-p.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-6.1.jar/meta-inf/primefaces-pm.taglib.xml" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/primefaces-4.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-4.0.jar/meta-inf/faces-config.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-4.0.jar/meta-inf/primefaces-p.taglib.xml" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/start-1.0.1.jar"/>
   <path value="/Users/alunomanha/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
-  <path value="/Users/alunomanha/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/aristo-1.0.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-codec-1.5.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jcommon-1.0.17.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/dom4j-1.6.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/el-impl-2.2.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-3.6.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-test-2.5.6.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/bluesky-1.0.10.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jstl-impl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/c-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/c-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/c.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/fmt-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/fmt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/fn.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/permittedtaglibs.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/scriptfree.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/sql-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/sql.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/x-1_0-rt.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/x-1_0.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-impl-1.2.jar/meta-inf/x.tld" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jta-1.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/cupertino-1.0.10.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/postgresql-9.1-903.jdbc4.jar"/>
   <path value="/Users/alunomanha/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/shared-bouncycastle-reduced-0.9.12.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/smoothness-1.0.10.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jsf-facelets.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-facelets.jar/meta-inf/faces-config.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-facelets.jar/meta-inf/jsf-core.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-facelets.jar/meta-inf/jsf-html.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-facelets.jar/meta-inf/jsf-ui.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-facelets.jar/meta-inf/jstl-core.taglib.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-facelets.jar/meta-inf/jstl-fn.taglib.xml" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jstl-api-1.2.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/flyway-core-3.2.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-security-web-3.1.2.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/slf4j-api-1.6.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-examples-3.9-20121203.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/iText-2.1.7.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jcip-annotations-1.0.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-io-2.3.jar"/>
+  <path value="/Users/alunomanha/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/guice-2.0.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/poi-3.9-20121203.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/javax.mail-1.5.5.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-orm-3.2.0.RC2.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jcl-over-slf4j-1.6.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-security-acl-3.1.2.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/jsf-api-2.2.7.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-lang-2.4.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-security-taglibs-3.1.2.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-security-taglibs-3.1.2.RELEASE.jar/meta-inf/security.tld" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/facelets-taglib-jsf20-spring-3-0.5.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-facelets-taglib-jsf20-spring-3-0.5.jar/meta-inf/faces-config.xml" project="JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-facelets-taglib-jsf20-spring-3-0.5.jar/meta-inf/spring_security.taglib.xml" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/redmond-1.0.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/xmlbeans-1.0.3.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-email-1.2.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/activation-1.0.2.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-digester-2.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-jdbc-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/hibernate3.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/slf4j-simple-1.6.1.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-webmvc-3.0.5.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-3.0.5.RELEASE.jar/meta-inf/spring-form.tld" project="JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-3.0.5.RELEASE.jar/meta-inf/spring.tld" project="JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-context-support-3.0.5.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/qrcode.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/commons-beanutils-1.8.3.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/spring-security-core-3.1.2.RELEASE.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/antlr-2.7.6.jar"/>
+  <path value="/Users/alunomanha/Desktop/workspace/JSF/src/main/webapp/WEB-INF/lib/junit-4.5.jar"/>
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
